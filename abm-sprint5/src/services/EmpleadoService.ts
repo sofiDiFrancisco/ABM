@@ -18,7 +18,7 @@ export const EmpleadoService = {
     },
 
     createEmpleado: async (empleado: Empleado): Promise<Empleado> => {
-        const response = await fetch(`${BASE_URL}//api/v1/empleado`, {
+        const response = await fetch(`${BASE_URL}/api/v1/empleado`, {
             method: "POST",
             headers: {
                 'Content-Type': 'application/json'

@@ -19,7 +19,7 @@ export const ProductService = {
     },
 
     createProduct: async (producto: Producto): Promise<Producto> => {
-        const response = await fetch(`${BASE_URL}//api/v1/producto`, {
+        const response = await fetch(`${BASE_URL}/api/v1/producto`, {
             method: "POST",
             headers: {
                 'Content-Type': 'application/json'
